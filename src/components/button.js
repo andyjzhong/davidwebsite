@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class Button extends Component {
   render() {
     return (
-      <div>
-        <button type="button" className="btn btn-primary">Button</button>
+      <div style="font-size:3em; color:Tomato">
+        <i class="fas fa-camera-retro"></i>
       </div>
     );
   }
