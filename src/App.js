@@ -10,10 +10,8 @@ import Navbar from './components/navbar';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div id="page">
         <head>
-
-        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
         </head>
         <body>
           <div class="namePlate">
