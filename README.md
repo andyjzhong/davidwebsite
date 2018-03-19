@@ -8,6 +8,13 @@ You can find the most recent version of this guide [here](https://github.com/fac
 List of commands:
 * `npm start` will start a development server on port localhost:3000.
 
+To safely merge a feature branch into master:
+* `git checkout feature` to check into the feature branch.
+* `git pull origin master` to pull the latest master branch code into the feature branch.
+* `git checkout master` to check into the master branch.
+* `git merge feature` to merge feature branch into master branch.
+
+
 ## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
