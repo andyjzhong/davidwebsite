@@ -6,13 +6,19 @@ You can find the most recent version of this guide [here](https://github.com/fac
 ## Commands
 
 List of commands:
-* `npm start` will start a development server on port localhost:3000.
+* `npm start` will start a development server on port [http://localhost:3000](http://localhost:3000).
 
 To safely merge a feature branch into master:
 * `git checkout feature` to check into the feature branch.
 * `git pull origin master` to pull the latest master branch code into the feature branch.
 * `git checkout master` to check into the master branch.
 * `git merge feature` to merge feature branch into master branch.
+
+To build client for production:
+* `npm run build` prepares the code base for deployment.
+* `firebase deploy` will deploy the code to [https://www.davidzhong.com](https://www.davidzhong.com)
+
+To view firebase options, visit: [https://console.firebase.google.com/project/david-s-website/overview](https://console.firebase.google.com/project/david-s-website/overview)
 
 
 ## Table of Contents
